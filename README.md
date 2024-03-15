@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 **Step 1** - Clone the Repository into your desired location
 
-    Command - `git clone https://github.com/AbhijaySaxena/`
+    Command - `git clone https://github.com/AbhijaySaxena/template-editor`
 
 **Step 2** - Install all packages, present in package.json
 
