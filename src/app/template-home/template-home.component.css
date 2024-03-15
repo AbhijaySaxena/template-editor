@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#logo {
+    width: 100%;
+    max-width: 1421px;
+    height: 79px;
+    background-color: #cf682f;
+    box-shadow: 0px 2px 4px #747373;
+}
+
+#logo-icon {
+    width: 100%;
+    max-width: 50px;
+    height: 37.96px;
+    margin-left: 41px;
+    margin-top: 22px;
+}
+
+#logo-div {
+    width: 100%;
+    max-width: 965px;
+    height: 51px;
+    margin-left: 136px;
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+#line {
+    width: 100%;
+    max-width: 965px;
+    margin-top: 14px;
+    position: absolute;
+    fill: transparent;
+}
+
+#numbering {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+    position: relative;
+}
+
+#one {
+    background-color: white;
+    color: black;
+    width: 100%;
+    max-width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.number {
+    width: 100%;
+    max-width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    background-color: #cf682f;
+}
+
+#author-detail {
+    display: inline-block;
+    margin-right: 0;
+    /* color: white; */
+    position: absolute;
+
+}
+
+#author-name {
+    width: 100%;
+    max-width: 100px;
+    height: 21px;
+    margin-top: 8px;
+    font-size: 21px;
+    font-family: poppins;
+    margin-left: 100px;
+}
+
+
+
+
+#signout-icon {
+    width: 100%;
+    max-width: 18px;
+    height: 20.04px;
+    display: flex;
+}
+
+#sign-out {
+    width: 100%;
+    max-width: 18px;
+    height: 20.04px;
+    margin-top: 12px;
+}
+
+#sidebar {
+    width: 100%;
+    max-width: 145px;
+    height: 630px;
+    margin-top: 20px;
+    background-color: #cf682f;
+}
+
+#configuration {
+    display: flex;
+    width: 100%;
+    width: 100px;
+    padding: 12px;
+    padding-top: 20px;
+    background-color: #cf682f;
+    color: white;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+.down-arrow {
+    display: flex;
+    width: 100%;
+    max-width: 15px;
+    height: 15px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+#template {
+    width: 100%;
+    max-width: 145px;
+    height: 35px;
+    background-color: #f5a172;
+}
+#template-text {
+    color: white;
+    padding-top: 4px;
+    padding-left: 21px;
+    font-size: 16px;
+    font-family: poppins;
+}
