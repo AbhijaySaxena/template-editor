@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.component.css">
+</head>
+
+<body>
+    <header id="header"></header>
+
+    <img id="logo" src="assets/logoipsum-329.jpg" alt="Logo">
+    <form id="form">
+        <p>
+            <input id="username" type="text" name="userName" [(ngModel)]="loginObj.userName" placeholder="USERNAME" required>
+        </p>
+        <p>
+            <input id="password" type="password" name="password" [(ngModel)]="loginObj.password" placeholder="PASSWORD" required>
+        </p>
+        <button id="button" type="button" (click)="onLogin()">SIGN IN</button>
+        <a id="forgot-pass" href="http://">Forgot Password?</a>
+    </form>
+    <div id="icon-box">
+        <div class="icon">
+            <img id="social-icon1" src="assets/facebook.png" alt="Facebook logo">
+        </div>
+        <div class="icon">
+            <img id="social-icon2" src="assets/linkedin_square.png" alt="Linkedin logo">
+        </div>
+        <div class="icon">
+            <img id="social-icon3" src="assets/twitter.png" alt="twitter logo">
+        </div>
+    </div>
+    <footer id="footer">&#169; Copyright Dyaz Innovate 2023. All rights reserved.</footer>
+</body>
+
+</html>
