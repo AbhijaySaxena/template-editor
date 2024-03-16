@@ -3,6 +3,9 @@
 Template Editor App is the Angular application, which allows user to login and then create and edit the Tamplates.
 Login Validaton is added for a specific user, on passing invalid user credentials user will land on error login page. On sucessful login user will be redirect to the Tamplate home page, from there user can create new templates and edit the existing one.
 
+Valid credentials:
+  username = Abhijay
+  password = 1234
 
 
 # Technology Description
