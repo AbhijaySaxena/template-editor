@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Template Dialog</title>
+    <link rel="stylesheet" href="create-template-empty.component.css">
+</head>
+
+<body>
+    <header id="header">
+        <p id="head-text"><b>Create Template</b></p>
+    </header>
+    <form>
+        <p id="form-text1">Name<br>
+            <input id="input-box1" type="text" name="name" placeholder="UK-MHRA-01">
+        </p>
+        <p id="form-text2">
+            Region<br>
+            <select id="input-box2" name="UKt">
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+            </select>
+        </p>
+        <button type="button" id="button" (click)="addFiles()">
+            <img src="assets/add.png" alt="add icon" width="14px" height="13.65px">&nbsp;&nbsp;Create
+            Structure</button>
+    </form>
+    <div id="add-folder">
+        <img id="add-folder-icon" src="assets/add-folder.jpg" alt="Add Folder">
+    </div>
+    <footer id="footer">
+        <button type="button" id="foot-button1" (click)="editTemplate()">
+            <img src="assets/folders-hierarchy-icon.png" alt="folder hierarchy icon">&nbsp;&nbsp;Modify
+            Template</button>
+        <button type="button" id="foot-button2" (click)="closePopup()">
+            <img src="assets/save-tick.png" alt="save icon">&nbsp;&nbsp;Save</button>
+        <button type="button" id="foot-button3" (click)="closePopup()">
+            <img src="assets/cancel.png" alt="cancel icon">&nbsp;&nbsp;Cancel</button>
+    </footer>
+</body>
+
+</html>

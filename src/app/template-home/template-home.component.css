@@ -46,7 +46,7 @@ body {
     position: relative;
 }
 
-#one {
+.one {
     background-color: white;
     color: black;
     width: 100%;
@@ -65,6 +65,14 @@ body {
     border: 1px solid white;
     color: white;
     background-color: #cf682f;
+}
+
+.numbering-text {
+    width: 100%;
+    margin-top: 4px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
 }
 
 #author-detail {
@@ -102,18 +110,25 @@ body {
     margin-top: 12px;
 }
 
+.main {
+    display: flex;
+    text-align: center;
+}
+
 #sidebar {
     width: 100%;
     max-width: 145px;
     height: 630px;
-    margin-top: 20px;
+    margin-top: 1px;
     background-color: #cf682f;
+    display: flex;
 }
 
 #configuration {
     display: flex;
     width: 100%;
     width: 100px;
+    height: 18px;
     padding: 12px;
     padding-top: 20px;
     background-color: #cf682f;
@@ -128,18 +143,202 @@ body {
     max-width: 15px;
     height: 15px;
     margin-left: 8px;
-    margin-top: 6px;
+    margin-top: 4px;
+
 }
+
 #template {
     width: 100%;
     max-width: 145px;
     height: 35px;
+    margin-top: 25px;
     background-color: #f5a172;
 }
+
 #template-text {
     color: white;
     padding-top: 4px;
     padding-left: 21px;
     font-size: 16px;
     font-family: poppins;
+}
+
+#document-prep {
+    display: flex;
+    width: 100%;
+    width: 140px;
+    height: 18px;
+    padding: 12px;
+    padding-top: 35px;
+    background-color: #cf682f;
+    color: white;
+    font-size: 14px;
+    font-family: poppins;
+}
+
+#sidebar-content {
+    width: 100%;
+    max-width: 145px;
+    height: 105px;
+    background-color: #da773f;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: poppins;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#center-div {
+    width: 100%;
+    max-width: 1100px;
+    height: 550px;
+    box-shadow: 2px 2px 14px 2px #747373;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+#nav {
+    width: 100%;
+    max-width: 1100px;
+    height: 43px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-content1 {
+    font-family: poppins;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#nav-content2 {
+    width: 100%;
+    max-width: 148px;
+    height: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: poppins;
+    font-size: 15px;
+    background-color: #cf682f;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #cf682f;
+}
+
+#temp-text {
+    padding-left: 10px;
+    padding-top: 14px;
+}
+#form {
+    display: flex;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+#form1 {
+    display: flex;
+}
+.date{
+    width: 200px;
+    padding: 15px;
+}
+#select {
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#select1 {
+    width: 100%;
+    max-width: 220px;
+    height: 27px;
+}
+#button {
+    width: 100%;
+    max-width: 93px;
+    height: 30px;
+    background-color: #cf682f;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 37px;
+    margin-left: 45px;
+    text-align: center;
+}
+#table {
+    width: 100%;
+    max-width: 1050px;
+    height: 380px;
+    border: 1px solid #91acc5;
+    margin: auto;
+}
+table {
+    width: 100%;
+    max-width: 1050px;
+    margin: auto;
+    
+    font-family: poppins;
+}
+table td {
+    border: 1px solid #91acc5;
+}
+#tr1 {
+    background-color: #e8edf1;
+    color: #43586c;
+    font-size: 16px;
+    height: 36px;
+}
+.td1 {
+    max-width: 110px;
+    height: 32px;
+    text-align: left;
+    padding-left: 15px;
+}
+.td2 {
+    max-width: 180px;
+    height: 32px;
+    text-align: left;
+    padding-left: 15px;
+}
+.td3 {
+    max-width: 140px;
+    height: 32px;
+    text-align: left;
+    padding-left: 15px;
+}
+.td4 {
+    max-width: 140px;
+    height: 32px;
+    text-align: left;
+    padding-left: 15px;
+}
+.td5 {
+    max-width: 140px;
+    height: 32px;
+    text-align: left;
+    padding-left: 15px;
+}
+.td6 {
+    height: 32px;
+    text-align: left;
+    padding-left: 15px;
+}
+.del-icon {
+    margin-left: 10px;
+}
+#foot {
+    width: 100%;
+    max-width: 1050px;
+    height: 30px;
+    margin-top: 220px;
+    display: inline-block;
+}
+#foot-text {
+    margin-bottom: 0px;
+    margin-left: 900px;
+    font-family: poppins;
+    font-size: 13px;
 }
